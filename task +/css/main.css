@@ -1,0 +1,137 @@
+.wrapper{
+    width: 100%;
+    background-color: #191919;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.center{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* N TEXT CSS */
+.n{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.line.t{
+    transform: rotate(-30deg);
+}
+
+.line{
+    width: 30px;
+    height: 150px;
+    background-color: red;
+}
+/* E TEXT CSS  */
+.e{
+    width: 30px;
+    height: 150px;
+}
+
+.row{
+    width: 30px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.colum{
+    width: 85px;
+    height: 30px;
+    background-color: red;
+}
+/* T TEXT CSS */
+.tt{
+    position: relative;
+    top: -60px;
+}
+.thead{
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    left: 55px;
+}
+.tbody{
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    background-color: red;
+    left: 36%;
+}
+/* F TEXT CSS  */
+.f{
+    position: absolute;
+    left: 61%;
+}
+/* L TEXT CSS  */
+.l{
+    position: absolute;
+    left: 66%;
+}
+.colum.bottom{
+    position: absolute;
+    top: 80%;
+}
+/* I TEXT CSS */
+.i-text{
+    width: 30px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 43%;
+    left: 71%;
+}
+/* X TEXT CSS */
+.x{
+    position: absolute;
+    display: flex;
+    left: 73%;
+    top: 43%;
+    width: 155px;
+    height: 155px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: .5s linear;
+}
+.x:hover .x-text{
+    transition: .5s linear;
+    transform: rotate(75deg);
+}
+.x:hover{
+    background-color: #191919;
+}
+.x-text{
+    width: 30px;
+    height: 160px;
+    background-color: red;
+    transform: rotate(160deg);
+}
+.x-text::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 160px;
+    background-color: red;
+    transform: rotate(40deg);
+}
+
+
+/* task 2 ++  */
